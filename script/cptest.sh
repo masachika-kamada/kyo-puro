@@ -14,4 +14,4 @@ fi
 
 oj test -c "python src/${problem_name}.py" -d test/${problem_name}
 
-sleep 5
+sleep 60

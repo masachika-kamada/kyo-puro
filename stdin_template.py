@@ -1,7 +1,12 @@
-import io
-import sys
+def main():
+    import io
+    import sys
 
-_INPUT = """\
+    _INPUT = """\
 
-"""
-sys.stdin = io.StringIO(_INPUT)
+    """
+    sys.stdin = io.StringIO(_INPUT)
+    # input = sys.stdin.readline
+
+
+main()

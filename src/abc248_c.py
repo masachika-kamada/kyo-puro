@@ -1,3 +1,9 @@
+"""
+動的計画法を使わないといけないらしい
+TODO: 動的計画法(Dynamic Programming)の勉強
+"""
+
+
 import math
 import itertools
 

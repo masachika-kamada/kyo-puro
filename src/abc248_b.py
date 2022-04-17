@@ -1,3 +1,8 @@
+"""
+TODO: 二分探索木
+"""
+
+
 def main():
     import io
     import sys

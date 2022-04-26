@@ -6,7 +6,6 @@ def main():
 
     """
     sys.stdin = io.StringIO(_INPUT)
-    # input = sys.stdin.readline
 
     
 

@@ -16,7 +16,7 @@ def main():
     for i in range(N):
         plus = 2 ** T[i] - ans % (2 ** T[i])
         ans += plus
-        if ans % (2 ** (T[i] + 1)) == 0:
+        if ans % (2 ** (T[i] + 1)) == 0:  # 指定の桁数よりも0が続いた場合
             ans += 2 ** T[i]
     print(ans)
 

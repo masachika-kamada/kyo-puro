@@ -7,15 +7,10 @@ def main():
     # """
     # sys.stdin = io.StringIO(_INPUT)
 
-    k = int(input())
-    h = k // 60
-    h = str((21 + h) % 24)
-    m = str(k % 60)
-    if len(m) == 1:
-        m = "0" + m
-    if len(h) == 1:
-        h = "0" + h
-    print(h + ":" + m)
+    k = int(input())  # 0 <= k <= 100
+    h = 21 + k // 60
+    m = k % 60
+    print(f"{h:02}:{m:02}")
 
 
 main()
